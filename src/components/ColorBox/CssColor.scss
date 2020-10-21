@@ -1,0 +1,9 @@
+.box {
+    $box-size: 300px;
+    
+    width: $box-size;
+    height: $box-size;
+
+    border-radius: 50%;
+    cursor: pointer;
+}

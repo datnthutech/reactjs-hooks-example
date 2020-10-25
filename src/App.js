@@ -9,6 +9,7 @@ import './App.css';
 // import TodoForm from './components/TodoForm';
 import PostList from './components/PostList';
 import Pagination from './components/Pagination';
+import MagicBox from './components/MagicBox';
 
 
 function App() {
@@ -91,11 +92,13 @@ function App() {
     <div className="App">
       <h1>Welcome to React Hooks</h1>
 
-      <PostList posts={posts} />
+      <MagicBox />
+
+      {/* <PostList posts={posts} />
       <Pagination 
         pagination={pagination}
         onPageChange={handlePageChange}
-      />
+      /> */}
 
       {/* <TodoForm onSubmit={handleOnSubmit}/> */}
       {/* <ColorBox />
